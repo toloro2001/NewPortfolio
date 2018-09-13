@@ -85,7 +85,7 @@ function magnify(imgID, zoom) {
 <p>Mouse over the image:</p>
 
 <div class="img-magnifier-container">
-  <img id="myimage" src="https://i.pinimg.com/originals/29/1b/a2/291ba2d38f17ceead7b7e54dbb26ef9a.jpg" width="50%" height="auto">
+  <img id="myimage" src="https://i.pinimg.com/originals/29/1b/a2/291ba2d38f17ceead7b7e54dbb26ef9a.jpg" width="50%" height="auto"usemap="#objmap"/>
 </div>
 
 <p>Feel free to change the strength of the magnifier glass when initiating the magnify function.</p>
@@ -95,6 +95,10 @@ function magnify(imgID, zoom) {
 with the id of the image, and the strength of the magnifier glass:*/
 magnify("myimage", 2);
 </script>
-
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
 </body>
 </html>
